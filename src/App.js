@@ -11,6 +11,7 @@ import {
 export default class App extends Component {
   pageSize = 15;
   apiKey=process.env.REACT_APP_NEWS_API_KEY
+  
  
   render() {
     return (
